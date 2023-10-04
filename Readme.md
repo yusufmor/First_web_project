@@ -2,25 +2,29 @@
 
 
 
-İlk Bir  dosya oluşturuoruz
+İlk Bir  dosya oluşturuoruz 
+
+Bu clasor yerine PyChramdan bir proje oluşturabilirsiniz
 
 
 
 ![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/yusufmor/Photos/main/Bir_Dosya_dizini.png)
 
-Bu clasor yerine PyChramdan bir proje oluşturabilirsiniz
 
 
+<br/><br/><br/><br/>
+Django'yu indirme Komudu
 ![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/yusufmor/Photos/main/Djengo_dowland_for_python.py.png)
 
 ```
    pip install Django==4.2.6 
 ```
 
-Django'yu indirme Komudu
 
-<br/>
 
+<br/><br/><br/><br/>
+
+Proje adına istediğinizi yazabilirsiniz ama ingilizce olsa daha iyi olur
 
 ![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/yusufmor/Photos/main/Djengo_create_project.png)
 
@@ -28,10 +32,11 @@ Django'yu indirme Komudu
    django-admin stratproject Proje_adi
 ```
 
-Proje adına istediğinizi yazabilirsiniz ama ingilizce olsa daha iyi olur
 
-<br/>
 
+<br/><br/><br/><br/>
+
+Projeyi başlatmadan önceki gereken komud
 
 ![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/yusufmor/Photos/main/Database.png)
 
@@ -39,11 +44,13 @@ Proje adına istediğinizi yazabilirsiniz ama ingilizce olsa daha iyi olur
    python manage.py migrate
 ```
 
-Projeyi başlatmadan önceki gereken komud
 
 
-<br/>
 
+<br/><br/><br/><br/>
+
+
+Projeyi Başlatma Kodu
 
 ![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/yusufmor/Photos/main/Proje_cal%C4%B1st%C4%B1rma.png)
 
@@ -51,10 +58,11 @@ Projeyi başlatmadan önceki gereken komud
    python manage.py runserver
 ```
 
-Projeyi Başlatma Kodu
 
-<br/>
+<br/><br/><br/><br/>
 
+
+Projeye Admin ekleme kodu
 
 ![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/yusufmor/Photos/main/Create_admin.png)
 
@@ -62,12 +70,13 @@ Projeyi Başlatma Kodu
    python manage.py createsuperuser
 ```
 
-Projeye Admin ekleme kodu
 
 
 
-<br/>
+<br/><br/><br/><br/>
 
+
+Projeye python app'ı ekleme
 
 ![Uygulama Ekran Görüntüsü](https://raw.githubusercontent.com/yusufmor/Photos/main/App.png)
 
@@ -75,7 +84,6 @@ Projeye Admin ekleme kodu
   python manage.py startapp Proje_adıApp
 ```
 
-Projeye python app'ı ekleme
 
 
 
